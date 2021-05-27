@@ -1,6 +1,8 @@
 # KMS_Tips
 Slmgr commands to aid in configuration and testing of a new Windows Volume Activation Services KMS server.
 
+All commands require elevated command prompt.
+
 Turn off auto publish to DNS.
 Slmgr /cdns
 
