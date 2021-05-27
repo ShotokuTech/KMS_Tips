@@ -1,5 +1,5 @@
-# KMS_Tips
-Slmgr commands to aid in configuration and testing of a new Windows Volume Activation Services KMS server.
+# KeyManagementServiceTips
+Slmgr commands to aid in configuration and testing of a new Windows Volume Activation Services Key Management Service server.
 
 https://youtu.be/lKGY6jwhhtk
 
@@ -18,7 +18,7 @@ Cscript.exe slmgr.vbs /dlv all
 This command turns off host caching.
 Slmgr /ckhc
 
-This command forces the client to use the new KMS server for activation.
+This command forces the client to use the new Key Management Service server for activation.
 Slmgr /skms New-KMS.NewDomain.com
 
 Now run this to activate using the new server.
@@ -27,7 +27,7 @@ Slmgr /ato
 Check the results with this command.
 Slmgr /dli
 
-Remove the forced KMS server entry.
+Remove the forced Key Management Service server entry.
 Slmgr /ckms
 
 Turn host caching back on with this command.
