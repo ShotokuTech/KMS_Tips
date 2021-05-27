@@ -2,7 +2,7 @@
 Slmgr commands to aid in configuration and testing of a new Windows Volume Activation Services Key Management Service server.
 
 https://youtu.be/lKGY6jwhhtk
-
+![Windows Volume Activation Key Management Service Tips](https://github.com/ShotokuTech/KeyManagementServiceTips/blob/main/kms%20tips.png)
 
 All commands require elevated command prompt.
 
